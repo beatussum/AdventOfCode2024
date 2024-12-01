@@ -3,4 +3,6 @@ name = "historian_hysteria"
 version = "0.1.0"
 edition = "2021"
 
-[dependencies]
+[features]
+part_one = []
+part_two = []
