@@ -1,0 +1,8 @@
+[package]
+name = "red_nosed_reports"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+part_one = []
+part_two = []
