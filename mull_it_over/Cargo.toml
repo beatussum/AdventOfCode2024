@@ -4,7 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+itertools = { version = "0.13.0", optional = true }
 regex = "1.11.1"
 
 [features]
 part_one = []
+part_two = [ "dep:itertools" ]
